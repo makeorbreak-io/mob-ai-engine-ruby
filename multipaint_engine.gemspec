@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Hugo Peixoto"]
   spec.email         = ["hugo@lifeonmars.pt"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Ruby implementation of the AI competition engine}
   spec.homepage      = "https://github.com/makeorbreak-io/mob-ai-engine-ruby"
   spec.license       = "MIT"
 
