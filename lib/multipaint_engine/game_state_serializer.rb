@@ -1,8 +1,8 @@
-require "multipaint/action_serializer"
-require "multipaint/game_state"
-require "multipaint/position"
+require "multipaint_engine/action_serializer"
+require "multipaint_engine/game_state"
+require "multipaint_engine/position"
 
-module Multipaint
+module MultipaintEngine
   module GameStateSerializer
     def self.load payload
       GameState.new(

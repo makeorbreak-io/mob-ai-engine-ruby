@@ -1,4 +1,4 @@
-module Multipaint
+module MultipaintEngine
   class PlayerAction < SimpleDelegator
     attr_reader :player_id
     def initialize player_id, action

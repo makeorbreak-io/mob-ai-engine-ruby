@@ -1,9 +1,9 @@
 require "json"
 
-require "multipaint/action"
+require "multipaint_engine/action"
 
 
-module Multipaint
+module MultipaintEngine
   module ActionSerializer
     def self.load payload
       case payload.fetch("type")

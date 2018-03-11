@@ -1,4 +1,4 @@
-module Multipaint
+module MultipaintEngine
   Position = Struct.new(:i, :j) do
     def self.from_list(list)
       raise if list.size != 2

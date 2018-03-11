@@ -1,6 +1,6 @@
-require "multipaint/position"
+require "multipaint_engine/position"
 
-module Multipaint
+module MultipaintEngine
   class Action
     def shoot?
       false
